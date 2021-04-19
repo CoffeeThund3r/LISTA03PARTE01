@@ -1,0 +1,28 @@
+namespace exercicio02
+{
+    //2. Calcular a nota necessária para passar por média no 4º bimestre. Dados: notas dos 3 bimestres. Considere a média 6.
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int a, b, c;
+            Double NotaFinal;
+
+            Console.WriteLine("Digite a nota do primeiro bimestre.");
+            a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a nota do segundo bimestre.");
+            b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a nota do terceiro bimestre.");
+            c = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+
+            NotaFinal = (40 - (a + b + c)) / 4;
+
+            Console.WriteLine("Faltam " + NotaFinal + " pontos para ser aprovado.");
+            Console.ReadKey();
+
+        }
+    }
+}
