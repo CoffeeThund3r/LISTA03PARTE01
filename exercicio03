@@ -1,0 +1,15 @@
+namespace exercicio03
+{
+    //3.Desenvolva um programa que armazene o valor 10 em uma variável A e o valor 20 em uma variável B.
+    //A seguir mostre o produto desses dois números
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1 = 10;
+            int num2 = 20;
+
+            Console.WriteLine(num1*num2);
+        }
+    }
+}
